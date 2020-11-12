@@ -1,3 +1,35 @@
 textarea {
     min-height: 400px;
 }
+
+/* Border for each email in a mailbox */
+.mail-item .row {
+    border: 1px solid black;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+/* Make the sender bolded on any mailbox */
+.mail-item .sender {
+    font-weight: bold;
+}
+
+/* Make the timestamp appear on the right hand side of the grid */
+.mail-item .timestamp {
+    text-align: right;
+}
+
+/* 
+#email-view p {
+    margin: 2px;
+} */
+
+/*
+#email-view button, #compose-form .btn {
+    margin-top: 10px;
+} */
+
+/*
+#archive-button {
+    display: inline;
+} */
